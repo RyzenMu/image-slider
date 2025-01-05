@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>hello this is automatically deployed</p>
+        <p>this is another deployment</p>
         <a
           className="App-link"
           href="https://reactjs.org"
