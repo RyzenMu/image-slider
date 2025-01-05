@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.modal.show-modal {
+  display: flex; /* Center the content */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -41,6 +45,7 @@
   /* Styles for large screens (laptops and desktops) */
   img {
     width: 25%;
+    margin: 3% 2%;
   }
 
   .zoom {
@@ -69,6 +74,9 @@
 
   .show-modal {
     display: block;
+  }
+  .modal-img img {
+    min-width: 100vh;
   }
 }
 
@@ -76,6 +84,7 @@
   /* Styles for medium screens (tablets) */
   img {
     width: 25%;
+    margin: 3% 2%;
   }
   .zoom {
     width: 50%;
@@ -100,6 +109,9 @@
   }
   .show-modal {
     display: block;
+  }
+  .modal-img img {
+    min-width: 100vh;
   }
 }
 
@@ -107,6 +119,7 @@
   /* Styles for small screens (phones) */
   img {
     width: 25%;
+    margin: 3% 2%;
   }
   .zoom {
     width: 50%;
@@ -131,5 +144,8 @@
   }
   .show-modal {
     display: block;
+  }
+  .modal-img img {
+    min-width: 100vh;
   }
 }
