@@ -42,6 +42,34 @@
   img {
     width: 25%;
   }
+
+  .zoom {
+    width: 50%;
+  }
+
+  button {
+    width: 10%;
+    align-items: center;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 4%;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    overflow: auto;
+  }
+
+  .show-modal {
+    display: block;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -49,11 +77,59 @@
   img {
     width: 25%;
   }
+  .zoom {
+    width: 50%;
+  }
+  button {
+    width: 10%;
+    align-items: center;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 4%;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    overflow: auto;
+  }
+  .show-modal {
+    display: block;
+  }
 }
 
 @media (max-width: 480px) {
   /* Styles for small screens (phones) */
   img {
     width: 25%;
+  }
+  .zoom {
+    width: 50%;
+  }
+  button {
+    width: 10%;
+    align-items: center;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 4%;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    overflow: auto;
+  }
+  .show-modal {
+    display: block;
   }
 }
