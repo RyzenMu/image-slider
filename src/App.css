@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+@media (min-width: 768px) {
+  /* Styles for large screens (laptops and desktops) */
+  img {
+    width: 25%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Styles for medium screens (tablets) */
+  img {
+    width: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for small screens (phones) */
+  img {
+    width: 25%;
+  }
+}
